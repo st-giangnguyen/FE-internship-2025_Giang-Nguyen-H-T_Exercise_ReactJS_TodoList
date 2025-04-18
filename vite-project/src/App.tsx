@@ -1,6 +1,6 @@
-import React, { useState, KeyboardEvent } from 'react';
+import { useState, KeyboardEvent } from 'react';
 
-const App: React.FC = () => {
+const App = () => {
   const [inputValue, setInputValue] = useState('');
   const [todos, setTodos] = useState<string[]>([]);
 
